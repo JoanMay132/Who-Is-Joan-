@@ -1,0 +1,87 @@
+.gradient-background {
+    background: linear-gradient(300deg, #000000, #000000, #04162a);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+#title{
+    background: linear-gradient(300deg, #000000, #000000, #000000);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+body{
+    text-align: center;
+}
+.top-container{
+    position: relative;
+}
+#title h3{
+    display:flex;
+    flex-direction: column; 
+    align-items:center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color:white;
+    padding:3rem 3rem 5rem 3rem;
+    letter-spacing: 0.2rem;
+}
+h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+}
+h2{
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    align-items: center;
+}
+#About-Me{
+    margin-top: 20px;
+}
+
+#About-Me img{
+    display: relative;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+    width: 300px;
+    flex-direction: column;
+    border-radius: 50%;
+}
+
+
+p{
+    font-family: "Radio Canada Big", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: normal;
+    align-items: center;
+    width: 30%;
+    margin: 30px auto;
+    color: white;
+
+  }
